@@ -870,6 +870,10 @@ button:focus {
   outline: 2px solid #000 !important;
 }
 
+.btn {
+  color: #000 !important;
+}
+
 .footer-link {
   margin-bottom: 1rem;
   list-style: none;
