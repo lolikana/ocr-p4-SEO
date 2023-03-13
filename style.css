@@ -857,9 +857,14 @@ footer a {
   color: #000 !important;
 }
 
+footer h2 {
+  font-size: 16px;
+}
+
 h1:focus,
 h2:focus,
 h3:focus,
+h4:focus,
 a:focus,
 button:focus {
   outline: 2px solid #000 !important;

@@ -112,22 +112,41 @@
                   fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
                 >
                   <div class="form-group">
-                    <label> Nom </label>
-                    <input id="name" class="form-control" required />
+                    <label for="name"> Nom </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      required
+                    />
                   </div>
                   <div class="form-group">
-                    <label> Adresse email </label>
-                    <input id="email" class="form-control" type="email" required />
+                    <label for="email"> Adresse email </label>
+                    <input
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      type="email"
+                      required
+                    />
                   </div>
                   <div class="form-group">
-                    <label> Comment nous avez-vous connu ? </label>
-                    <input class="form-control" type="email" required id="input_504" />
+                    <label for="how"> Comment nous avez-vous connu ? </label>
+                    <input
+                      id="how"
+                      name="how"
+                      class="form-control"
+                      type="text"
+                      required
+                    />
                   </div>
                   <div class="form-group">
-                    <label>
+                    <label for="message">
                       Brief de votre projet (Ajoutez autant de détails que nécessaire)<br /> </label
                     ><textarea
                       id="message"
+                      name="message"
                       class="form-control"
                       rows="4"
                       cols="50"
@@ -168,9 +187,9 @@
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
-              <h3 class="text-center black">
+              <h2 class="text-center">
                 La chouette agence - Agence web basée à Lyon.<br />
-              </h3>
+              </h2>
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
@@ -212,7 +231,6 @@
                       <a href="immobilierseo.com">immobilierseo.com</a>
                     </li>
                   </ul>
-                </div>
                 </div>
               </div>
             </div>
