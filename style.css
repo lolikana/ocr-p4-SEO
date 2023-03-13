@@ -828,12 +828,16 @@ h4 {
 }
 
 .section-h2 {
-  color: #7b7b7b !important;
+  color: #696969 !important;
   font-weight: 500;
 }
 
 blockquote {
   border: none;
+}
+
+blockquote p,
+blockquote footer {
   color: #696969;
 }
 
