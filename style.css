@@ -847,9 +847,11 @@ blockquote footer {
 
 .footer-link {
   margin-bottom: 1rem;
+  list-style: none;
 }
 
 .footer-link a {
+  color: #000 !important;
   display: inline-block;
   padding: 0.5rem 0.25rem;
 }
