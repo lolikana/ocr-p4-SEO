@@ -826,6 +826,15 @@ h4 {
   background-image: url('img/image-de-presentation.bmp');
 }
 
+.footer-link {
+  margin-bottom: 1rem;
+}
+
+.footer-link a {
+  display: inline-block;
+  padding: 0.5rem 0.25rem;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
