@@ -826,6 +826,25 @@ h4 {
   background-image: url('img/image-de-presentation.bmp');
 }
 
+.section-h2 {
+  color: #7b7b7b !important;
+  font-weight: 500;
+}
+
+blockquote {
+  border: none;
+  color: #696969;
+}
+
+blockquote p {
+  font-size: 24px;
+  line-height: 1.4em;
+}
+
+blockquote footer {
+  font-size: 14px;
+}
+
 .footer-link {
   margin-bottom: 1rem;
 }
