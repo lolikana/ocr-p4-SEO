@@ -701,6 +701,7 @@ p {
 }
 
 .social {
+  color: red;
   max-width: 400px;
   margin: auto auto auto auto;
 }
@@ -845,13 +846,19 @@ blockquote footer {
   font-size: 14px;
 }
 
+footer h2,
+footer h3,
+footer .icon-md,
+footer a {
+  color: #000 !important;
+}
+
 .footer-link {
   margin-bottom: 1rem;
   list-style: none;
 }
 
 .footer-link a {
-  color: #000 !important;
   display: inline-block;
   padding: 0.5rem 0.25rem;
 }
