@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lolikana.github.io/ocr-p4-SEO/sitemap.xml
+Sitemap: https://ocr-p4-seo.vercel.app/sitemap.xml
