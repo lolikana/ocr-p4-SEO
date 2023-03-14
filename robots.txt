@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lolikana.github.io/ocr-p4-SEO/sitemap.xml
