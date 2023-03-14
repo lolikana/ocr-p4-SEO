@@ -2,9 +2,10 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 325px;
 }
 
 a,
@@ -700,10 +701,11 @@ p {
   font-weight: 700;
 }
 
-.social {
-  color: red;
+.socials {
+  display: flex;
   max-width: 400px;
-  margin: auto auto auto auto;
+  justify-content: space-between;
+  margin: 2rem auto auto auto;
 }
 
 h2 {
@@ -878,8 +880,16 @@ button:focus {
   color: #000 !important;
 }
 
+.footer-links {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .footer-link {
-  margin-bottom: 1rem;
+  margin: 1rem 1rem 1rem;
   list-style: none;
 }
 
